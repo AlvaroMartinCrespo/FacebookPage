@@ -1,0 +1,255 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+
+}
+
+body{
+
+    background-color: #F0F2F5;
+
+
+}
+
+/*
+
+    Container principal
+
+*/
+
+.container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*
+
+    Container Facebook
+
+*/
+
+.containerFacebook{
+
+    margin-top: 100px;
+    width: 720px;
+    height: 700px;
+
+}
+
+#imgLogo{
+
+    width: 300px;
+    height: auto;
+    padding-top: 80px;
+    padding-left: 180px;
+
+}
+
+#pLogo{
+
+    padding-left: 212px;
+    font-size: 1.8em;
+
+}
+
+
+/*
+
+    Container Login
+
+*/
+
+.containerLogin{
+
+    margin-top: 5%;
+    width: 700px;
+    height: 700px;
+
+}
+
+#login{
+
+
+    width: 390px;
+    height: 340px;
+    margin-left: 67px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    margin-bottom: 23px;
+
+}
+
+
+.formulario{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 15px;
+    
+
+}
+
+.texto{
+
+    width: 346px;
+    height: 48px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    padding-left: 15px;
+    font-size: 1.1em;
+    border: 1px solid #d9dde4;
+    outline: none;
+    
+}
+
+.texto:focus{
+
+    border: 1px solid #1877f2;
+    box-shadow: 0 0 4px #1877f2;
+
+
+}
+
+.btnBlue{
+
+    width: 364px;
+    height: 47px;
+    border: none;
+    border-radius: 6px;
+    background-color: #1877f2; 
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+
+#spanLogin{
+
+    color: #1877f2;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 0.85em;
+
+}
+
+#spanLogin:hover{
+
+    text-decoration: underline;
+
+}
+
+.hrLogin{
+
+    width: 360px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(226, 232, 236);
+
+}
+
+.btnGreen{
+
+    width: 200px;
+    height: 47px;
+    border: none;
+    border-radius: 6px;
+    background-color: #1877f2; 
+    color: white;
+    font-weight: bold;
+    font-size: 1.15em;
+    margin-bottom: 20px;
+    background-color: #42b72a;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+
+}
+
+#crearEmpresa{
+
+    font-size: 0.85em;
+    padding-left: 73px;
+
+}
+
+/*
+
+    Footer
+
+*/
+
+#footer{
+
+    width: 100%;
+    height: 230px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.idiomas{
+
+    display: flex;
+    margin-left: -160px;
+
+}
+
+.afooter{
+
+
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 0.8em;
+    color: rgb(167, 173, 177);
+
+}
+
+.afooter:hover{
+
+    text-decoration: underline;
+
+}
+
+.hrFooter{
+
+    margin-top: 10px;
+    width: 700px;
+    margin-bottom: 10px;
+}
+
+.contenido{
+
+    display: flex;
+
+}
+
+.spanfooter{
+
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 0.8em;
+    color: rgb(167, 173, 177);
+
+}
+
+.spanfooter:hover{
+
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
